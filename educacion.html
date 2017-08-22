@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Educación</title>
+  <style media="screen">
+    body{
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #f9f9f9;
+    }
+    div{
+      padding-top: 0.3em;
+
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <svg>
+      <image xlink:href="img/logo.svg" width="300px" height="200px">
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Nombre y Apellidos:Jasiel Tellez Cantillo</h2>
+      <h3>Fecha de Nacimiento: 22 de septiembre, 1990</h3>
+      <h3>Lugar de Nacimiento: Holguín,Cuba</h3>
+      <nav class="menu-principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="educacion.html">Educación</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h2>Educación</h2>
+    <table border="solid 1px black ">
+      <th>Año</th>
+      <th>Institución</th>
+      <th>Lugar</th>
+      <th>¿Terminó?</th>
+      <tr>
+        <td>2004</td>
+        <td>Pre Vocaional</td>
+        <td>Holguín</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2009</td>
+        <td>Universidad de Ciencias Informáticas</td>
+        <td>La Habana</td>
+        <td>Si</td>
+      </tr>
+
+    </table>
+
+    <form class="" action="index.html" method="post" style="width:30%">
+      <fieldset >
+        <legend><h2>Agregar Estudios</h2></legend>
+        <div class="">
+          <label for="anno">Año</label>
+          <select class="" name="anno">
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+          </select>
+        </div>
+        <div class="">
+          <label for="instit">Institución</label>
+          <input type="text" name="instit" value="" required>
+        </div>
+        <div class="">
+          <label for="lugar">Lugar</label>
+          <textarea name="lugar" rows="10" cols="50"></textarea>
+        </div>
+        <div class="">
+          <label for="culm">¿Culminó?</label>
+          <input type="radio" name="culm" value="si" checked> Si</input>
+          <input type="radio" name="culm" value="no"> No</input>
+        </div>
+        <div class="">
+          <input type="submit" name="" value="Enviar">
+        </div>
+      </fieldset>
+    </form>
+    <footer>
+      <div class="">
+        <h2>Contacto</h2>
+      </div>
+      <div class="">
+        <span>Email: jasieltelles@gmail.com</span>
+      </div>
+      <div class="">
+        <span>Tel.: +56 934458945</span>
+      </div>
+      <div class="">
+        <span>Dirección: Rancagua,Chile</span>
+
+      </div>
+    </footer>
+  </body>
+  </html>
